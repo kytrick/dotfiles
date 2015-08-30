@@ -3,6 +3,7 @@
 for addpath in \
     $HOME/bin \
     /usr/local/sbin \
+    /Applications/Postgres.app/Contents/Versions/*/bin \
     ; do
     if [[ -z ${path[(r)${addpath}]} ]]; then
         if [[ -d $addpath ]]; then
