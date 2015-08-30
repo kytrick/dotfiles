@@ -1,0 +1,42 @@
+# source zsh-git-prompt if it exists
+# https://github.com/olivierverdier/zsh-git-prompt
+[ -f $HOME/dev/zsh-git-prompt/zshrc.sh ] && source $HOME/dev/zsh-git-prompt/zshrc.sh
+
+
+ps_git_super_status() {
+    if [ -n "$__CURRENT_GIT_STATUS" ]; then
+        echo "git:$(git_super_status) "
+    fi
+}
+
+ps_cwd() {
+    echo "%{$fg[green]%}%20<...<%~%{$reset_color%}"
+}
+
+ps_hostname() {
+    echo "%{$fg[cyan]%}%m%{$reset_color%}"
+}
+
+ps_retcode() {
+    echo "%(?..!%?! )"
+}
+
+ps_roothash() {
+    # echo "%{$fg[magenta]%}%#%{$reset_color%}"
+    if [[ "$(whoami)" == "root" ]]; then
+        hashmark='🚀"'
+    else
+        hashmark='%%'
+    fi
+    echo "%{$fg[magenta]%}$hashmark%{$reset_color%}"
+}
+
+PS1='$(ps_hostname) $(ps_retcode)$(ps_roothash) '
+RPROMPT='$(ps_git_super_status)$(ps_cwd)'
+
+
+
+
+
+# an example prompt
+#PROMPT='%B%m%~%b$(git_super_status) %# '
