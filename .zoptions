@@ -15,8 +15,8 @@ unsetopt CDABLE_VARS            # try to expand cd's
 unsetopt   CHASE_LINKS          # resolve symbolic links
 setopt   COMPLETE_ALIASES       # don't substitute aliases until later
 unsetopt COMPLETE_IN_WORD       # complete at end of word
-setopt   CORRECT                # try to correct spelling of commands
-setopt   CORRECT_ALL            # try to correct all arguements
+unsetopt   CORRECT                # try to correct spelling of commands
+unsetopt   CORRECT_ALL            # try to correct all arguements
 unsetopt CSH_JUNKIE_HISTORY     # allow csh history
 unsetopt CSH_JUNKIE_LOOPS       # allow csh loops
 # unsetopt CSH_JUNKIE_PAREN     # allow csh parens
