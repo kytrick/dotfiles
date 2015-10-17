@@ -2,6 +2,6 @@
 
 cd $HOME
 
-for i in $(ls -A $HOME/dev/dotfiles/.z*); do 
+for i in $(ls -A $HOME/dev/dotfiles/.z* $HOME/dev/dotfiles/.*rc); do 
     ln -s $i
 done
