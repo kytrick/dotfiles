@@ -4,7 +4,7 @@ for addpath in \
     $HOME/bin \
     /usr/local/sbin \
     /Applications/Sublime\ Text.app/Contents/SharedSupport/bin \
-    /Applications/Postgres.app/Contents/Versions/*/bin \
+#    /Applications/Postgres.app/Contents/Versions/*/bin \
     ; do
     if [[ -z ${path[(r)${addpath}]} ]]; then
         if [[ -d $addpath ]]; then
