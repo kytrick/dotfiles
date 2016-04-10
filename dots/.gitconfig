@@ -1,0 +1,7 @@
+[user]
+	name = Kayla Smith
+	email = kytrick@gmail.com
+[push]
+	default = simple
+[color]
+	ui = auto
