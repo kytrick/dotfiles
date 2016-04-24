@@ -14,3 +14,9 @@ HISTFILE=~/.zsh_history
 
 # this loads standard zsh completions according to fpath
 autoload -Uz compinit
+
+# direnv is used to set up precommand functions
+# in .envrc for the directory I do work work in, I define GIT_AUTHOR_EMAIL and GIT_COMMITTER_EMAIL
+if ( which direnv > /dev/null ); then 
+    eval "$(direnv hook zsh)"
+fi

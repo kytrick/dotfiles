@@ -3,7 +3,7 @@
 # This file has OSX specific configurations
 
 brew cask install haskell-platform
-brew install haskell-stack
+brew install haskell-stack mercurial direnv
 
 # zsh-git-prompt
 # compile gitstatus executable (in haskell) which results in the prompt returning faster
