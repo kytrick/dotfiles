@@ -1,6 +1,7 @@
 
 # add extra path completions idempotentally
 for addpath in \
+    $HOME/anaconda3/bin \
     $HOME/bin \
     /usr/local/sbin \
     /Applications/Sublime\ Text.app/Contents/SharedSupport/bin \
