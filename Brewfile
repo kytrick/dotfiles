@@ -2,6 +2,7 @@
 brew "awscli"
 brew "brew-gem"
 brew "direnv"
+brew "diff-so-fancy"
 brew "git"
 brew "go"
 brew "haskell-stack" # used to make zsh prompt render faster

@@ -5,6 +5,7 @@ for addpath in \
     $HOME/bin \
     /usr/local/sbin \
     /Applications/Sublime\ Text.app/Contents/SharedSupport/bin \
+    /usr/local/anaconda3/bin \
 #    /Applications/Postgres.app/Contents/Versions/*/bin \
     ; do
     if [[ -z ${path[(r)${addpath}]} ]]; then

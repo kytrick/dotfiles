@@ -5,3 +5,13 @@
 	default = simple
 [color]
 	ui = auto
+[rebase]
+	autostash = true
+	autosquash = true
+	stat = true
+[pull]
+	rebase = true
+[core]
+	pager = diff-so-fancy | less --tabs=4 -RFX
+[commit]
+	verbose = true
