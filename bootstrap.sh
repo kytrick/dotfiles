@@ -1,7 +1,7 @@
 #! /bin/bash
 #bootstrap.sh populates your $HOME directory with symlinks to your dotfiles
 
-set -e
+set -euo pipefail #if there are any errors, this script will exit
 
 base=$(dirname ${BASH_SOURCE})
 cd $base
@@ -23,7 +23,7 @@ function fetch_git {
   cd $OLDPWD
 }
 
-#fetch_git git@github.com:olivierverdier/zsh-git-prompt.git
+fetch_git git@github.com:olivierverdier/zsh-git-prompt.git
 
 # TODO: make this into a proper conditional and have one for linux 
 # OSX specific settings found in this file
