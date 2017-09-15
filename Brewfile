@@ -1,3 +1,4 @@
+tap "buo/cask-upgrade" # https://github.com/buo/homebrew-cask-upgrade
 # casks are binaries that get installed in my Mac Applications directory
 brew "awscli"
 brew "brew-gem"
