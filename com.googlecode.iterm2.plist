@@ -55,19 +55,13 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 364 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>366 308 796 473 0 0 1440 878 </string>
+	<string>269 148 1018 447 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>557 418 857 452 0 0 1440 878 </string>
+	<string>20 116 1282 730 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>843 408 570 452 0 0 1440 878 </string>
+	<string>60 161 570 452 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
-	<string>197 47 570 452 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 3</key>
-	<string>218 24 570 452 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 4</key>
-	<string>239 425 570 452 0 0 1440 877 </string>
-	<key>NSWindow Frame iTerm Window 5</key>
-	<string>260 421 570 452 0 0 1440 877 </string>
+	<string>815 23 570 452 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -704,15 +698,22 @@
 	<key>NoSyncHaveWarnedAboutPasteConfirmationChange</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>CAC54D73-D00B-46BB-944B-3A0D43CEEEF6</string>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
-	<true/>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>1</integer>
+	<string>F21E508E-1F1D-4F4A-B5D1-6EF1EB33B8D7</string>
+	<key>NoSyncLastTipTime</key>
+	<real>527136084.72423202</real>
 	<key>NoSyncPermissionToShowTip</key>
-	<false/>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>515735329.87694401</real>
+	<real>526782728.68763</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+	</array>
+	<key>PerformDNSLookups</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -748,20 +749,20 @@
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>~/dev/dotfiles</string>
-	<key>SUAutomaticallyUpdate</key>
-	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=77</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=68</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2017-09-05T20:59:36Z</date>
+	<date>2017-09-24T19:09:32Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
+	<key>SUSkippedVersion</key>
+	<string>3.1.1</string>
 	<key>WordCharacters</key>
 	<string>/-+\~_.</string>
 	<key>iTerm Version</key>

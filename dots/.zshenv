@@ -1,12 +1,9 @@
 
 # add extra path completions idempotentally
 for addpath in \
-    $HOME/anaconda3/bin \
     $HOME/bin \
     /usr/local/sbin \
-    /Applications/Sublime\ Text.app/Contents/SharedSupport/bin \
-    /usr/local/anaconda3/bin \
-#    /Applications/Postgres.app/Contents/Versions/*/bin \
+#    /usr/local/anaconda3/bin \
     ; do
     if [[ -z ${path[(r)${addpath}]} ]]; then
         if [[ -d $addpath ]]; then

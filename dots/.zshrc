@@ -20,3 +20,7 @@ autoload -Uz compinit
 if ( which direnv > /dev/null ); then 
     eval "$(direnv hook zsh)"
 fi
+
+# pyenv
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv-virtualenv-init -)"; fi
