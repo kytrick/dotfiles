@@ -8,6 +8,7 @@ brew "git"
 brew "go"
 brew "haskell-stack" # used to make zsh prompt render faster
 brew "htop"
+brew "hub"
 brew "ipcalc"
 brew "ipv6calc"
 brew "ipv6toolkit"
