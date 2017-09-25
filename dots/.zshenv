@@ -31,4 +31,7 @@ export LESS_TERMCAP_us=$'\e[0;31m'
 #export LESS_TERMCAP_us=$'\E[01;32m'
 export GREP_OPTIONS='--color=auto'
 export CLICOLOR=yes
-export CLICOLOR_FORCE=yes
+
+# always sends ansi color codes regardless of whether the shell is interactive
+# wrecks things scripts that use output of commands (pyenv install for example)
+# export CLICOLOR_FORCE=yes

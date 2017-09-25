@@ -24,3 +24,8 @@ fi
 # pyenv
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv-virtualenv-init -)"; fi
+
+# disable virtualenv prompt prepending since it's done in RPROMPT
+VIRTUAL_ENV_DISABLE_PROMPT=1
+# because it's being deprecated in next version of pyenv anyway
+PYENV_VIRTUALENV_DISABLE_PROMPT=1
